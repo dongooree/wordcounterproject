@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Dongeun Park</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto Slab" rel="stylesheet">
+    <style>
+        .container {
+            background-color:  rgb(254, 178, 76);
+        }
+
+        #first {
+            background-color : rgb(253, 141, 60);
+        }
+        #second {
+            background-color : rgb(254, 217, 118);
+        }
+        #third {
+            background-color : rgb(255,255,204);
+        }
+
+        #profile {
+            height: 150px;
+        }
+
+        h1, h2 {
+            color: rgb(252,78,42);
+        }
+
+        p {
+            font-family: "Roboto Slab";
+            font-size: 20px;
+            font-weight: 400;
+            margin: 20px 200px 20px 200px;
+        }
+        h1 {
+            font-family: "Roboto Slab";
+            font-size: 48px;
+            font-weight: 700;
+            margin: 10px 20px 10px 20px;
+        }
+        h2 {
+            font-family: "Roboto Slab";
+            font-size: 24px;
+            margin: 10px 200px 10px 200px;
+        }
+
+        button {
+
+            width:100px;
+
+            background-color: rgb(253, 141, 60);
+
+            border: none;
+
+            color:#fff;
+
+            padding: 15px 0;
+
+            text-align: center;
+
+            text-decoration: none;
+
+            display: inline-block;
+
+            font-size: 15px;
+
+            margin: 20px 0px 20px 0px;
+
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+
+<body>
+     <div id="first">
+        <img src="wordcount/profile.jpg" alt="" id="profile" style="border-radius: 50%";>
+        <h1 id="greet" style="text-align: center">Hi!</h1>
+        <h2 id="intro" style="text-align: center">My name is Dongeun Park!</h2>
+    </div>
+    <div id="second">
+        <section>
+            <h2 style="text-align: left">More About Wordcount</h2>
+            <p style="text-align: left">Praesent convallis id nunc sit amet congue. Sed congue, ante et fermentum accumsan, quam urna fermentum
+                    ipsum, quis elementum sapien enim at tellus. Vivamus in iaculis massa. Etiam lobortis, enim a pretium
+                    cursus, purus diam ornare nibh, a facilisis justo leo non sem. Donec ac est tellus. Maecenas augue odio,
+                    efficitur et nulla a, finibus lobortis diam. Curabitur malesuada aliquet ligula et iaculis. Donec a dui
+                    id ligula lobortis vulputate tempor a erat.</p>
+        </section>
+        <div style="text-align: center"><button type="button" class="btn btn-link" href="{% url 'home' %}">Home</button></div>
+    </div>
+    <div id="third" style="text-align: center">
+        <a class="btn btn-primary" href="https://www.instagram.com/dongooree/" role="button">Facebook</a>
+        <a class="btn btn-primary" href="https://www.instagram.com/dongooree/" role="button">Instagram</a>
+        <a class="btn btn-primary" href="https://www.instagram.com/dongooree/" role="button">Twitter</a>
+        <p>© 2019 SKKU Likelion</p>
+    </div>
+</body>
+
+</html>

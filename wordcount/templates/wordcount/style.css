@@ -1,0 +1,65 @@
+.container {
+    background-color:  rgb(254, 178, 76);
+}
+
+#first {
+    background-color : rgb(253, 141, 60);
+}
+#second {
+    background-color : rgb(254, 217, 118);
+}
+#third {
+    background-color : rgb(255,255,204);
+}
+
+#profile {
+    height: 150px;
+}
+
+h1, h2 {
+    color: rgb(252,78,42);
+}
+
+p {
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 200px 20px 200px;
+}
+h1 {
+    font-family: "Roboto Slab";
+    font-size: 48px;
+    font-weight: 700;
+    margin: 10px 20px 10px 20px;
+}
+h2 {
+    font-family: "Roboto Slab";
+    font-size: 24px;
+    margin: 10px 200px 10px 200px;
+}
+
+button {
+
+    width:100px;
+
+    background-color: rgb(253, 141, 60);
+
+    border: none;
+
+    color:#fff;
+
+    padding: 15px 0;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 15px;
+
+    margin: 20px 0px 20px 0px;
+
+    cursor: pointer;
+
+}
